@@ -1,0 +1,46 @@
+{
+  "refund_request": {
+    "id": "RR-2026-00421",
+    "filed_at": "2026-04-15T14:30:00Z",
+    "customer_name": "María Delgado",
+    "customer_email": "maria.delgado@example.com",
+    "stated_reason": "My laptop's screen started flickering around day 45 after purchase, and by day 55 it would not boot at all. I followed every troubleshooting step in support's email — safe mode, battery reset, BIOS reset — none worked. I need a full refund.",
+    "requested_remedy": "Full refund of $1,299.00"
+  },
+  "purchase": {
+    "id": "ORD-2026-09982",
+    "timestamp": "2026-02-14T10:02:11Z",
+    "amount_usd": 1299.00,
+    "item_description": "Meridian X14 ultrabook laptop, 16GB RAM, 512GB SSD, 1-year manufacturer warranty",
+    "delivery_confirmed_at": "2026-02-17T16:44:00Z"
+  },
+  "store_policy": {
+    "effective_date": "2025-01-01",
+    "return_window_days": 30,
+    "condition_requirements": "Unopened, in original packaging. Opened electronics are final sale except where law requires otherwise.",
+    "restocking_fee_percent": 15,
+    "notes": "Returns outside the 30-day window are not eligible except as required by law."
+  },
+  "consumer_law": {
+    "jurisdiction": "US-CA",
+    "citations": [
+      {
+        "statute": "Cal. Civ. Code §1791.1",
+        "summary": "Implied warranty of merchantability on consumer goods — goods must be fit for the ordinary purpose for which such goods are used, and remain so for at least 60 days and up to one year from sale."
+      },
+      {
+        "statute": "Cal. Civ. Code §1793.2(d)",
+        "summary": "Where a seller is unable to service or repair consumer goods to conform to applicable warranties after a reasonable number of attempts, the buyer may elect replacement or restitution (Song-Beverly Consumer Warranty Act)."
+      },
+      {
+        "statute": "Cal. Civ. Code §1723",
+        "summary": "Retailer must conspicuously display refund policy; where displayed policy is more restrictive than this Act, the consumer's statutory rights control."
+      }
+    ]
+  },
+  "customer_history": {
+    "prior_refund_requests_12mo": 0,
+    "account_age_days": 412,
+    "total_lifetime_spend_usd": 3421.50
+  }
+}
