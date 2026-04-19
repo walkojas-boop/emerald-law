@@ -223,8 +223,9 @@ Every execution appends one line to `./ledger.jsonl`. That file is the substrate
 | File | Purpose |
 |---|---|
 | [emerald.py](emerald.py) | Runtime. 392 lines. |
-| [RefundAdjudicator.em](RefundAdjudicator.em) | The first program. |
-| [sample_input.json](sample_input.json) | Statutory-override test case. |
+| [RefundAdjudicator.em](RefundAdjudicator.em) | The first program. Consumer-law refunds under California Civil Code §1723. |
+| [AgencyCycle.em](AgencyCycle.em) | The second program. Codifies the Walko Systems Agency cycle — the two-hour autonomous decisionmaking loop that runs the agent fleet — as an Emerald Law program. Demonstrates that runtime agent orchestration itself can be expressed as a legal document. |
+| [sample_input.json](sample_input.json) | Statutory-override test case (for RefundAdjudicator). |
 | [test_judge_rubberstamp.py](test_judge_rubberstamp.py) | Judge dissents on an unsupported opinion. |
 | [test_judge_mutation.py](test_judge_mutation.py) | Judge dissents on decision/opinion contradiction. The proof above. |
 | [requirements.txt](requirements.txt) | `anthropic>=0.40.0` |
