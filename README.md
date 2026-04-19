@@ -225,6 +225,7 @@ Every execution appends one line to `./ledger.jsonl`. That file is the substrate
 | [emerald.py](emerald.py) | Runtime. 392 lines. |
 | [RefundAdjudicator.em](RefundAdjudicator.em) | The first program. Consumer-law refunds under California Civil Code §1723. |
 | [AgencyCycle.em](AgencyCycle.em) | The second program. Codifies the Walko Systems Agency cycle — the two-hour autonomous decisionmaking loop that runs the agent fleet — as an Emerald Law program. Demonstrates that runtime agent orchestration itself can be expressed as a legal document. |
+| [Memorymarket.em](Memorymarket.em) | The third program. Codifies an agent-to-agent cache marketplace: signed Receipts bound to deterministic CacheKeys, Sift-gated Settlements, originator-paid-on-cache-hit economics, append-only ledger. Demonstrates that a whole economic protocol (not just a decision procedure) can be expressed as a legal document. |
 | [sample_input.json](sample_input.json) | Statutory-override test case (for RefundAdjudicator). |
 | [test_judge_rubberstamp.py](test_judge_rubberstamp.py) | Judge dissents on an unsupported opinion. |
 | [test_judge_mutation.py](test_judge_mutation.py) | Judge dissents on decision/opinion contradiction. The proof above. |
